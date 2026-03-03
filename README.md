@@ -48,9 +48,3 @@ Extensive experiments on two large-scale real-world datasets (TAOBAO-MM and Kuai
    cd ../glass
    python main_glass.py
    ```
-
-## Code availability
-Our codes are made publicly available to facilitate further research in generative recommendation. The implementation will be published to this repository as soon as it is ready.
-
----
-Thank you for your interest — code and detailed instructions will appear here soon.
