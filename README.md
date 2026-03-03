@@ -6,7 +6,7 @@ This README gives a concise project overview.
 Leveraging long-term user behavioral patterns is a key trajectory for enhancing the accuracy of modern recommender systems. While generative recommender systems have emerged as a transformative paradigm, they face hurdles in modeling extensive historical sequences. In this work we propose GLASS, a novel framework that integrates long-term user interests into the generative recommendation process via SID-Tier and Semantic Search.
 
 For detailed architecture and methodology, please refer to [overview.pdf](./overview.pdf).
-
+![GLASS Architecture](./overview.png)
 ## Key ideas
 - SID-Tier: A module that maps long-term interactions into a unified interest vector to improve prediction of the initial semantic ID (SID) token. Rather than relying on conventional retrieval across massive item spaces, SID-Tier exploits the compactness of a semantic codebook and models cross-features between a user's long-term history and candidate semantic codes.
 - Semantic Hard Search: Uses generated coarse-grained semantic IDs as dynamic keys to retrieve relevant historical behaviors. Retrieved behaviors are fused through an adaptive gated fusion module that recalibrates the trajectory of subsequent fine-grained generated tokens.
